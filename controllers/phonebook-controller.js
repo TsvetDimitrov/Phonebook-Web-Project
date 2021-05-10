@@ -5,7 +5,6 @@ module.exports = {
     res.render('index', {
       contacts: getPhoneBook()
     });
-    
   },
 
   //TODO add phone number only with numbers, if there is a string print "error". 
